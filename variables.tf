@@ -8,8 +8,8 @@ variable "name_prefix" {
 variable "instance_type" {
   description = "type of EC2 instance to provision."
   # default     = "t2.micro"   # default
-  default     = "t3.micro"   # type violation - hard-mandatory
-  # default     = "t3.xlarge"  # upgrade t2.micro to t3.xlarge = cost increase violation
+  # default     = "t3.micro"   # type violation - hard-mandatory
+  default     = "t3.xlarge"  # upgrade t2.micro to t3.xlarge = cost increase violation
 }
 
 variable "ssh_cidr" {
