@@ -7,7 +7,8 @@ variable "name_prefix" {
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
-  default     = "t2.micro"
+  # default     = "t2.micro"   # default
+  default     = "t3.micro"   # type violation
 }
 
 variable "ssh_cidr" {
